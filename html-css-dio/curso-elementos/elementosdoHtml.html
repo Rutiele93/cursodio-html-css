@@ -1,0 +1,68 @@
+<!--     <section> e uma secao generica de um conteudo, como uma lista de artigos
+    <header> pode ser o cabecalho da sua pagina ou de parte da pagina
+    <article> representa um conteudo importante dentro da sua pagina como artigo de um blog
+    <aside> representa um um conteudo relacionado ao conteudo principal da pagina, 
+        como uma biografia de um autor, links
+    <footer> pode ser o roda pe da pagina ou de parte da pagina.
+    <h1> so pode haver um por pagina
+    <a> link <a>
+    <a herf='LINK'> nome do link </a> (herf e o hiper link para aonde sua ancora esta apontada)
+    <a target="_blank"> link </a> (target serve para indicar como nosso link vai ser aberto, o _blank ele diza 
+    para nosso abrir em uma nova aba) 
+    <img scr="img/avatar.jpg"> (scr e obrigatorio - guarda o caminho da imagem podendo ser dentro do proprio 
+    site ou de algum lugar)
+    tambem  <img alt="foto de Rutiele"> ( nao e obrigatorio - mas e recomendado para melhorar a acessibilidade 
+    mostra a discricao da foto quando nao e carregada e leitores de tela usa essa discricao ao usuario o que 
+    esta na tela)
+    listas serve para agrupar colecao de itens
+    <li> e um item dessas lista
+    <ul> lista que a ordem dos itens nao e importante
+    <ol> as ordem dos itens e importante
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rutiele Rios</title>
+        <link rel="stylesheet" href="introducaoCSS.css">
+    </head>
+    <body>
+        <header>
+            <img src="rosto.png" alt="rosto" class="imag_rosto">
+            <h1 id="title"> Rutiele Rios </h1>
+        </header>
+        <section>
+            <header>
+                <h2 class="subtitle"> Posts</h2>
+            </header>
+            <article class="post">
+                <header>
+                    <h3 class="post_title"> Post #1</h3>
+                    <img src="postagem.jpg" alt="Postagem" class="post_image">
+                </header>
+                <p class="post_content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    <a href="https://www.lipsum.com/" target="_blank" > Lorem Ipsum has been the industry's</a> standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    <a href="mailto:rutiele93@gmail.com"> Email </a>remaining essentially unchanged. It was popularised in the 1960s with the release 
+                    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p> 
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li> 
+                    <a href="mailto:rutiele93@gmail.com" target="_blank"> rutiele93@gmail.com </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rutiele-rios-94b646135" target="_blank"> linkedin </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Rutiele93" target="_blank"> GitHub</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

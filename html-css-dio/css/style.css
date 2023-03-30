@@ -1,0 +1,46 @@
+/* 
+Para fazer a estilização do css no arquivo html é necessario fazer um link no arquivo desejado. 
+Atraves da tag <head> fazemos a importação do arquivo ex: <link rel="stylesheet" type="text/css" href="css/style.css">
+*/
+
+body{
+    background: rgb(160, 157, 157);
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+nav{
+    font-family: Georgia;
+    color: rgb(230, 65, 65);
+}
+
+ul{
+    font-family: Verdana, Geneva, Tahoma;
+    color: brown;
+}
+header{
+    margin-top: 50px;
+}
+
+h1{
+    color: rgb(29, 48, 105);
+    font-family: fantasy;
+}
+
+h2{
+ font-family: Arial, Helvetica;
+ color: blue;
+}
+
+p{
+    font-size: 18px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.img_padrao {
+    width: 30px;
+    margin-bottom: 3px;
+}
